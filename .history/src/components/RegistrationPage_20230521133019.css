@@ -1,0 +1,7 @@
+.reg-page{
+  background-image: url('../Assets/back1.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: black;
+}

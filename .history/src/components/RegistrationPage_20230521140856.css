@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.reg-page{
+  background-image: url('../Assets/back1.png');
+  background-size: 52%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: black;
+}
+.first-div{
+  font-family:'Roboto';
+}
