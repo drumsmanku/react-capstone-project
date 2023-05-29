@@ -5,7 +5,7 @@ import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 
 function RegistrationPage() {
-  
+  const mystorage=localStorage.getItem('RegistrationFormData')||0;
   const [formData, setFormData] = useState({
     Name:'',
     UserName:'',

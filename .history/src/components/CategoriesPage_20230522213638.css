@@ -1,0 +1,23 @@
+.container{
+  display:flex;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+.first-container{
+  height: inherit;
+  width: 40%;
+}
+
+.second-container{
+  height: inherit;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.category-container{
+  background-color: white;
+}
