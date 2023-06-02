@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.main-container-w{
+  background-color: black ;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.first-container-w{
+  height: 70%;
+  display: inline-flex;
+  
+  width: 70%;
+  padding-left: 2rem;
+  justify-content: space-around;
+
+}
+.cards-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  justify-content: space-between;
+}
+.second-container-w{
+  height:inherit;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-card-w{
+  height: 50%;
+  width: 100%;
+  background-color: #5746EA;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather-card-w{
+  height: 35%;
+  width: 100%;
+  background-color: #101744;
+  border-radius: 2rem;
+}
+.news-card-w{
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  border-radius: 2rem;
+}
+.middle-container{
+  height: 90%;
+  color: white;
+  width: 20rem;
+  margin-top: 1.5rem;
+  background-color: #F1C75B;
+  border-radius: 2rem;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.main-container-w{
+  background-color: black ;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.first-container-w{
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 2rem;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.cards-container-w{
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 5rem;
+  justify-content: space-around;
+}
+.second-container-w{
+  height:inherit;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-card-w{
+  height: 50%;
+  width: 100%;
+  background-color: #5746EA;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather-card-w{
+  height: 40%;
+  width: 100%;
+  background-color: #101744;
+  border-radius: 2rem;
+}
+.news-card-w{
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  border-radius: 2rem;
+}
+.middle-container{
+  height: 95%;
+  color: white;
+  width: 20rem;
+  margin-top: 1rem;
+  background-color: #F1C75B;
+  border-radius: 2rem;
+  font-family: 'DM Sans';
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  color: black;
+  margin-left: 5rem;
+}
+.middle-container textarea{
+  border: none;
+  width: 87%;
+  background-color:#F1C75B ;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+.stopwatch{
+  height: 30%;
+  width: 90%;
+  background-color: #1E2343;
+  margin-left: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stop-icon{
+  width: 20%;
+  height: 80%;
+  background-color: #F1C75B;
+}
+.rest-stopwatch{
+  width: 60%;
+  height: 100%;
+  background-color:aqua;
+  display: flex;
+  flex-direction: column;
+}
+.timers{
+  height: 75%;
+  width: 100%;
+  background-color: #101744;
+  display: flex;
+  justify-content: space-around;
+}
+.start-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+#start-button1{
+  background-color: #FF6A6A;
+  color: white;
+  border: none;
+  width: 70%;
+  height: 2rem;
+  border-radius: 2rem;
+  font-family: 'DM Sans';
+  font-size: 1.4rem;
+}
+.fb{
+  border-top: 50px solid transparent; 
+  border-left: 50px solid blue;  
+  border-right: 50px solid blue; 
+  border-bottom: 50px solid blue;
+}
+::-webkit-scrollbar{
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #FFE6A6;
+  border-radius: 1rem;
+}

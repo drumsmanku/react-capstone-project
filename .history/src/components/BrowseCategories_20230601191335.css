@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.container-b{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  height: 10%;
+  align-items: center;
+}
+.header h1{
+  font-family: 'Single Day';
+  font-size: 3rem;
+  color: #72DB73;
+  font-weight: 400;
+  margin: 0;
+}
+.avatar{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.body-container{
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.main-elements{
+  width: 90%;
+  height: 100%;
+  background-color: blue;
+}
+.main-elements h1{
+  font-family:'DM Sans';
+  color: white;
+  font-size: 1.5rem;
+}
